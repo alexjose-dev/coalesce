@@ -1,6 +1,0 @@
-excludeSelector: ""
-fileVersion: 1
-id: "3"
-includeSelector: "{ location: TESTENV name: STG_ORDERS }"
-name: Refresh Job
-type: Job
