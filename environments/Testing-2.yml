@@ -1,5 +1,14 @@
 fileVersion: 1
 id: "2"
-mappingDefinitions: {}
+mappingDefinitions:
+  SAMPLE:
+    database: SNOWFLAKE_SAMPLE_DATA
+    schema: TPCH_SF1
+  TESTENV:
+    database: SNOWFLAKE_LEARNING_DB
+    schema: TEST_ENVIRONMENT
+  WORK:
+    database: PC_COALESCE_DB
+    schema: PUBLIC
 name: Testing
 type: Environment
