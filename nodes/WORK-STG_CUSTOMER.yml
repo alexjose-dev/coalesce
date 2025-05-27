@@ -44,7 +44,7 @@ operation:
           - columnReferences:
               - columnCounter: 1350b1f4-13de-4891-9f44-5ab07975165e
                 stepCounter: 02f6b789-5529-4795-bb8e-7f2df60ec546
-            transform: ""
+            transform: UPPER("CUSTOMER"."C_NAME")
       - appliedColumnTests: {}
         columnReference:
           columnCounter: cc51f8c3-0f25-4612-bb20-deec0777a847
@@ -58,7 +58,7 @@ operation:
           - columnReferences:
               - columnCounter: 8526f3e5-997a-465c-b056-aa45c09ec90a
                 stepCounter: 02f6b789-5529-4795-bb8e-7f2df60ec546
-            transform: ""
+            transform: UPPER("CUSTOMER"."C_ADDRESS")
       - appliedColumnTests: {}
         columnReference:
           columnCounter: d3f589e0-af4f-4897-92c0-f3ab31669611
@@ -72,7 +72,7 @@ operation:
           - columnReferences:
               - columnCounter: 1bd1389a-7ead-4f1f-ab84-d3fc336f09b7
                 stepCounter: 02f6b789-5529-4795-bb8e-7f2df60ec546
-            transform: ""
+            transform: UPPER("CUSTOMER"."C_NATIONKEY")
       - appliedColumnTests: {}
         columnReference:
           columnCounter: d913a85a-ff96-4873-96c1-b7d5a320c699
@@ -86,7 +86,7 @@ operation:
           - columnReferences:
               - columnCounter: 6c6bdc27-f753-47a2-8e2b-64864d0fbf0b
                 stepCounter: 02f6b789-5529-4795-bb8e-7f2df60ec546
-            transform: ""
+            transform: UPPER("CUSTOMER"."C_PHONE")
       - appliedColumnTests: {}
         columnReference:
           columnCounter: bb278788-9fe5-4df8-8c06-2ff138722755
@@ -100,7 +100,7 @@ operation:
           - columnReferences:
               - columnCounter: d0a84a54-4553-4e1e-b4f6-e26fbb991174
                 stepCounter: 02f6b789-5529-4795-bb8e-7f2df60ec546
-            transform: ""
+            transform: UPPER("CUSTOMER"."C_ACCTBAL")
       - appliedColumnTests: {}
         columnReference:
           columnCounter: 29597f77-8b8e-4a20-a9f4-9564f259ce33
@@ -114,7 +114,7 @@ operation:
           - columnReferences:
               - columnCounter: 0f4b91b0-b429-44a7-8d59-d68fbda61ad2
                 stepCounter: 02f6b789-5529-4795-bb8e-7f2df60ec546
-            transform: ""
+            transform: UPPER("CUSTOMER"."C_MKTSEGMENT")
     cteString: ""
     enabledColumnTestIDs: []
     sourceMapping:
