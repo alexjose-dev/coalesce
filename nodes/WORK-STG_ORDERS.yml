@@ -58,7 +58,7 @@ operation:
           - columnReferences:
               - columnCounter: b4ad5e34-2534-445b-9c88-334a6a23698e
                 stepCounter: 74219caa-f03a-448a-a3c5-2cdd093a4d0b
-            transform: ""
+            transform: UPPER("CUSTOMER"."C_NAME")
       - appliedColumnTests: {}
         columnReference:
           columnCounter: a8d4e562-6109-4e80-9ce5-5c8d510da97c
