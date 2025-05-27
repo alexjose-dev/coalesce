@@ -1,5 +1,5 @@
 fileVersion: 1
-id: e810e887-61e8-463f-90ae-abd973b59edd
+id: 817df6e5-9dbb-4447-9aad-fad861322d25
 name: STG_ORDERS
 operation:
   config:
@@ -19,8 +19,8 @@ operation:
     columns:
       - appliedColumnTests: {}
         columnReference:
-          columnCounter: 442a546c-09d8-4298-a9ae-1750bc1a7add
-          stepCounter: e810e887-61e8-463f-90ae-abd973b59edd
+          columnCounter: d1bc5c13-fa77-4977-b58d-5dd292a89585
+          stepCounter: 817df6e5-9dbb-4447-9aad-fad861322d25
         config: {}
         dataType: NUMBER(38,0)
         description: ""
@@ -28,13 +28,13 @@ operation:
         nullable: false
         sourceColumnReferences:
           - columnReferences:
-              - columnCounter: 743c389a-4b49-427b-8adf-65aaf4f912ce
-                stepCounter: fb397929-ff2e-4a8b-acf6-4c0219663893
+              - columnCounter: e2aef83e-59c5-4c86-9cfc-30d703c6403f
+                stepCounter: 9dccb2b2-dac3-4524-a64c-7bec26c1aec9
             transform: ""
       - appliedColumnTests: {}
         columnReference:
-          columnCounter: ce8d777d-f58a-44ce-a293-7754de098145
-          stepCounter: e810e887-61e8-463f-90ae-abd973b59edd
+          columnCounter: 06e7c145-8120-4422-a3eb-3b8c58a0bd06
+          stepCounter: 817df6e5-9dbb-4447-9aad-fad861322d25
         config: {}
         dataType: NUMBER(38,0)
         description: ""
@@ -42,27 +42,13 @@ operation:
         nullable: false
         sourceColumnReferences:
           - columnReferences:
-              - columnCounter: 18e9bbd9-cdaf-4095-a687-f63350f81fff
-                stepCounter: fb397929-ff2e-4a8b-acf6-4c0219663893
+              - columnCounter: ce7db6e7-a299-4a21-bd4d-90b398e4236e
+                stepCounter: 9dccb2b2-dac3-4524-a64c-7bec26c1aec9
             transform: ""
       - appliedColumnTests: {}
         columnReference:
-          columnCounter: 1431ccc7-218c-40f1-b774-725381fb3624
-          stepCounter: e810e887-61e8-463f-90ae-abd973b59edd
-        config: {}
-        dataType: VARCHAR(25)
-        description: ""
-        name: C_NAME
-        nullable: false
-        sourceColumnReferences:
-          - columnReferences:
-              - columnCounter: b4ad5e34-2534-445b-9c88-334a6a23698e
-                stepCounter: 74219caa-f03a-448a-a3c5-2cdd093a4d0b
-            transform: ""
-      - appliedColumnTests: {}
-        columnReference:
-          columnCounter: 1ccfc062-21c4-45f2-b569-2f3b60388003
-          stepCounter: e810e887-61e8-463f-90ae-abd973b59edd
+          columnCounter: 8ae4f327-ec56-43b8-85da-3a5993b30760
+          stepCounter: 817df6e5-9dbb-4447-9aad-fad861322d25
         config: {}
         dataType: VARCHAR(1)
         description: ""
@@ -70,13 +56,13 @@ operation:
         nullable: false
         sourceColumnReferences:
           - columnReferences:
-              - columnCounter: 3491ca47-379b-4ca6-a413-999e4eb681af
-                stepCounter: fb397929-ff2e-4a8b-acf6-4c0219663893
+              - columnCounter: 2e5d9a98-a491-4830-95b7-34d0cdbc4d97
+                stepCounter: 9dccb2b2-dac3-4524-a64c-7bec26c1aec9
             transform: ""
       - appliedColumnTests: {}
         columnReference:
-          columnCounter: c606036b-dba9-4cfc-a52e-3399c6400d27
-          stepCounter: e810e887-61e8-463f-90ae-abd973b59edd
+          columnCounter: 59e5a9d8-335a-4321-a04e-d1a7a0a054a0
+          stepCounter: 817df6e5-9dbb-4447-9aad-fad861322d25
         config: {}
         dataType: NUMBER(12,2)
         description: ""
@@ -84,13 +70,13 @@ operation:
         nullable: false
         sourceColumnReferences:
           - columnReferences:
-              - columnCounter: 8e01648e-1594-44fa-a587-13d99fc88316
-                stepCounter: fb397929-ff2e-4a8b-acf6-4c0219663893
+              - columnCounter: 2b9c1239-3c30-4ca7-8952-c7b9485e8e54
+                stepCounter: 9dccb2b2-dac3-4524-a64c-7bec26c1aec9
             transform: ""
       - appliedColumnTests: {}
         columnReference:
-          columnCounter: 44b826c4-7e61-4767-bd89-3ce2109506ff
-          stepCounter: e810e887-61e8-463f-90ae-abd973b59edd
+          columnCounter: 6f120901-6545-4276-bbaf-ec1762f4cc2a
+          stepCounter: 817df6e5-9dbb-4447-9aad-fad861322d25
         config: {}
         dataType: DATE
         description: ""
@@ -98,13 +84,13 @@ operation:
         nullable: false
         sourceColumnReferences:
           - columnReferences:
-              - columnCounter: 0da95912-18fc-4161-acb8-db020d5baf25
-                stepCounter: fb397929-ff2e-4a8b-acf6-4c0219663893
+              - columnCounter: 65e5012d-17d3-4c75-b80c-03f7819ce710
+                stepCounter: 9dccb2b2-dac3-4524-a64c-7bec26c1aec9
             transform: ""
       - appliedColumnTests: {}
         columnReference:
-          columnCounter: 65ef632b-ad2c-4cd5-b1c3-151269fa3d02
-          stepCounter: e810e887-61e8-463f-90ae-abd973b59edd
+          columnCounter: aa7e7de4-e23f-40d0-b610-43dbba83d2cb
+          stepCounter: 817df6e5-9dbb-4447-9aad-fad861322d25
         config: {}
         dataType: VARCHAR(15)
         description: ""
@@ -112,13 +98,13 @@ operation:
         nullable: false
         sourceColumnReferences:
           - columnReferences:
-              - columnCounter: 569f80d5-704c-46ba-9702-50b42d7fc716
-                stepCounter: fb397929-ff2e-4a8b-acf6-4c0219663893
+              - columnCounter: 40b4b666-bd5f-48b6-a207-e9aa73452e30
+                stepCounter: 9dccb2b2-dac3-4524-a64c-7bec26c1aec9
             transform: ""
       - appliedColumnTests: {}
         columnReference:
-          columnCounter: 458f82ff-ae3e-483d-946a-757fc6338d92
-          stepCounter: e810e887-61e8-463f-90ae-abd973b59edd
+          columnCounter: 6b533ad1-b11f-41bf-9ba6-97eb0e3d6794
+          stepCounter: 817df6e5-9dbb-4447-9aad-fad861322d25
         config: {}
         dataType: VARCHAR(15)
         description: ""
@@ -126,27 +112,48 @@ operation:
         nullable: false
         sourceColumnReferences:
           - columnReferences:
-              - columnCounter: 9d8792bf-5372-4326-8935-6526ac911334
-                stepCounter: fb397929-ff2e-4a8b-acf6-4c0219663893
+              - columnCounter: f36693fc-77a1-4d96-9a9e-f589c137d828
+                stepCounter: 9dccb2b2-dac3-4524-a64c-7bec26c1aec9
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: f6bd4504-0a14-4e5d-9324-2ac2929e199b
+          stepCounter: 817df6e5-9dbb-4447-9aad-fad861322d25
+        config: {}
+        dataType: NUMBER(38,0)
+        description: ""
+        name: O_SHIPPRIORITY
+        nullable: false
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: 16083bb5-84b9-481e-ac24-4da6fcc55fc2
+                stepCounter: 9dccb2b2-dac3-4524-a64c-7bec26c1aec9
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: bc4b5c36-bccc-4c82-a5b1-11e190ec63ab
+          stepCounter: 817df6e5-9dbb-4447-9aad-fad861322d25
+        config: {}
+        dataType: VARCHAR(79)
+        description: ""
+        name: O_COMMENT
+        nullable: false
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: 214ad334-5f07-4dcf-b6a7-ea479a2fc47e
+                stepCounter: 9dccb2b2-dac3-4524-a64c-7bec26c1aec9
             transform: ""
     cteString: ""
     enabledColumnTestIDs: []
     sourceMapping:
-      - aliases:
-          CUSTOMER: 74219caa-f03a-448a-a3c5-2cdd093a4d0b
-          ORDERS: fb397929-ff2e-4a8b-acf6-4c0219663893
+      - aliases: {}
         customSQL:
           customSQL: ""
         dependencies:
           - locationName: SAMPLE
-            nodeName: CUSTOMER
-          - locationName: SAMPLE
             nodeName: ORDERS
         join:
-          joinCondition: |-
-            FROM {{ ref('SAMPLE', 'ORDERS') }} "ORDERS"
-            JOIN {{ ref('SAMPLE', 'CUSTOMER') }} "CUSTOMER"
-            ON "CUSTOMER"."C_CUSTKEY"= "ORDERS"."O_CUSTKEY"
+          joinCondition: FROM {{ ref('SAMPLE', 'ORDERS') }} "ORDERS"
         name: STG_ORDERS
         noLinkRefs: []
   name: STG_ORDERS
