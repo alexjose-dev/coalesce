@@ -129,20 +129,6 @@ operation:
               - columnCounter: 9d8792bf-5372-4326-8935-6526ac911334
                 stepCounter: fb397929-ff2e-4a8b-acf6-4c0219663893
             transform: ""
-      - appliedColumnTests: {}
-        columnReference:
-          columnCounter: 2b43dbfa-e21e-4b23-bd1a-a24ae4c177df
-          stepCounter: e810e887-61e8-463f-90ae-abd973b59edd
-        config: {}
-        dataType: NUMBER(38,0)
-        description: ""
-        name: O_SHIPPRIORITY
-        nullable: false
-        sourceColumnReferences:
-          - columnReferences:
-              - columnCounter: 64052d98-379b-4428-aa54-49ee255b1169
-                stepCounter: fb397929-ff2e-4a8b-acf6-4c0219663893
-            transform: ""
     cteString: ""
     enabledColumnTestIDs: []
     sourceMapping:
