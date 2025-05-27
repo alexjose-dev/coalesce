@@ -1,6 +1,5 @@
-defaultStorageMapping: TESTENV
+defaultStorageMapping: WORK
 fileVersion: 1
 locations:
   - SAMPLE
-  - TESTENV
   - WORK

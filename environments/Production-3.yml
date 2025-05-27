@@ -4,11 +4,8 @@ mappingDefinitions:
   SAMPLE:
     database: SNOWFLAKE_SAMPLE_DATA
     schema: TPCH_SF1
-  TESTENV:
-    database: SNOWFLAKE_LEARNING_DB
-    schema: TEST_ENV
   WORK:
-    database: PC_COALESCE_DB
-    schema: PUBLIC
+    database: SNOWFLAKE_LEARNING_DB
+    schema: PROD_ENV
 name: Production
 type: Environment
