@@ -1,6 +1,6 @@
 fileVersion: 1
 id: c3bac259-b046-4800-a138-41e41ada5e9e
-name: FCT_NODE
+name: FCT_ORDER_PER_CUSTOMER
 operation:
   config:
     postSQL: ""
@@ -124,9 +124,9 @@ operation:
             LEFT JOIN {{ ref('WORK', 'STG_ORDERS') }} "STG_ORDERS"
             ON "DIM_CUSTOMER"."C_CUSTKEY" = "STG_ORDERS"."O_CUSTKEY"
             GROUP BY "C_CUSTKEY","C_NAME","C_ACCTBAL"
-        name: FCT_NODE
+        name: FCT_ORDER_PER_CUSTOMER
         noLinkRefs: []
-  name: FCT_NODE
+  name: FCT_ORDER_PER_CUSTOMER
   overrideSQL: false
   schema: ""
   sqlType: Fact

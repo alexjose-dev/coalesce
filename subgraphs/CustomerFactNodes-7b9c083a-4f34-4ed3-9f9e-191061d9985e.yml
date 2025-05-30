@@ -1,0 +1,7 @@
+fileVersion: 1
+id: 7b9c083a-4f34-4ed3-9f9e-191061d9985e
+name: Customer Fact Nodes
+steps:
+  - 8499f135-70f1-4eca-8183-093391153c1c
+  - 9574538d-56b2-4c01-9dcd-5192724624f7
+type: Subgraph
