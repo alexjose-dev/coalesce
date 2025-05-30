@@ -56,7 +56,7 @@ operation:
           - columnReferences:
               - columnCounter: 21ff2379-4a38-4737-b23f-7d5396cb2c6b
                 stepCounter: 8499f135-70f1-4eca-8183-093391153c1c
-            transform: ""
+            transform: LOWER("DIM_CUSTOMER"."C_NAME")
       - appliedColumnTests: {}
         columnReference:
           columnCounter: d672069c-dcb1-4c53-93e9-0ffd618fc389
