@@ -1,0 +1,8 @@
+excludeSelector: ""
+fileVersion: 1
+id: "9"
+includeSelector: |-
+  +{ location: WORK name: STG_CUSTOMER } OR +{ location: WORK name: STG_LINEITEM } OR +{ location: WORK name: STG_NATION } OR +{ location: WORK name: STG_ORDERS } OR 
+  +{ location: WORK name: STG_PART } OR +{ location: WORK name: STG_PARTSUPP } OR +{ location: WORK name: STG_REGION } OR +{ location: WORK name: STG_SUPPLIER }
+name: RefreshStg
+type: Job
